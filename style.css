@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.logo i,h1{
+    font-size: 2em;
+    color: blue;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1.5em;
+    margin-top: 5px;
+    list-style: none;
+
+}
+
+
+#btn1{
+    background-color: transparent;
+    padding: 8px 20px;
+    font-size: 1em;
+    color: blue;
+    font-weight: 600;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+
+#btn2{
+    background-color: orange;
+    padding: 8px 20px;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    border:none;
+    border-radius: 10px;
+    margin-left: 10px;
+}

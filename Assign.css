@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 40px; */
+}
+
+.logo img{
+    width: 100px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.menue ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/* Section 2 */
+
+.main{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: orangered;
+    color: white;
+    height: 500px;
+    margin-top: -40px;
+    /* padding: 40px 30px; */
+    
+}
+
+.main .info{
+    padding: 40px 60px;
+    margin-top: 5%;
+    width: 40%;
+
+}
+
+.info h1{
+    font-size: 2.5em;
+    font-family: sans-serif;
+    
+}
+
+.info p{
+    padding: 20px 0px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.info a{
+    color: white;
+}
+
+
+.video{
+    margin-top: 5%;
+    width: 40%;
+}
+
+.video p{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+/* Section Three */
+
+.box1 img{
+    width: 400px;
+}
+
+.box1 {
+    /* background-color: rgb(194, 192, 192); */
+    width: 400px;
+    height: 500px;
+}
+
+.box1 h1{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.box1 p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.box1 a{
+    text-decoration: none;
+}
+
+/* box2 */
+.box2 img{
+    width: 400px;
+}
+
+.box2 {
+    /* background-color: rgb(194, 192, 192);; */
+    width: 400px;
+    height: 500px;
+}
+
+.box2 h1{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.box2 p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.box2 a{
+    text-decoration: none;
+}
+
+/* box3 */
+
+.box2 img{
+    width: 400px;
+}
+
+.box3 p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+
+.box3 img{
+    width: 400px;
+}
+
+.box3 {
+    /* background-color: rgb(194, 192, 192);; */
+    width: 400px;
+    height: 500px;
+}
+
+.box3 h1{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.box3 p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.box3 a{
+    text-decoration: none;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
